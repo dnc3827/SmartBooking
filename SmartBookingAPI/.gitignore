@@ -1,0 +1,12 @@
+﻿# Bỏ qua thư mục rác của Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Bỏ qua các file sinh ra lúc Build code
+[Bb]in/
+[Oo]bj/
+
+# Bỏ qua file log
+logs/
