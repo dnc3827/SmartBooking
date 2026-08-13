@@ -239,5 +239,6 @@ SmartBookingAPI/
 ## 8. Luyện tập Git Commit
 1. commit 1
 2. commit 2
-2. commit 3
+3. commit 3
+4. commit 4
 
