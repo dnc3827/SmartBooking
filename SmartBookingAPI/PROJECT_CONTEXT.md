@@ -237,4 +237,6 @@ SmartBookingAPI/
 └── Program.cs                     # DI, JWT, Serilog, Middleware pipeline, cấu hình Swagger XML
 
 ## 8. Luyện tập Git Commit
+1. commit 1
+2. commit 2
 
