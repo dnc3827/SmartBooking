@@ -1,0 +1,37 @@
+2026-08-11 19:45:01.514 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-08-11 19:45:06.566 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-11 19:45:07.471 +07:00 [INF] Now listening on: https://localhost:7278
+2026-08-11 19:45:07.474 +07:00 [INF] Now listening on: http://localhost:5050
+2026-08-11 19:45:07.490 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-11 19:45:07.493 +07:00 [INF] Hosting environment: Development
+2026-08-11 19:45:07.495 +07:00 [INF] Content root path: D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI
+2026-08-11 19:45:11.794 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2026-08-11 19:45:12.675 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 892.3957ms
+2026-08-11 19:45:19.607 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2026-08-11 19:45:19.607 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-11 19:45:19.644 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 37.3026ms
+2026-08-11 19:45:19.740 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 134.8083ms
+2026-08-11 19:45:19.879 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2026-08-11 19:45:20.286 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 407.6426ms
+2026-08-11 19:49:31.067 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Barber/1/available-slots?date=2026-08-11 - null null
+2026-08-11 19:49:33.634 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.BarberController.GetAvailableSlots (SmartBookingAPI)'
+2026-08-11 19:49:33.738 +07:00 [INF] Route matched with {action = "GetAvailableSlots", controller = "Barber"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAvailableSlots(Int32, System.String) on controller SmartBookingAPI.Controllers.BarberController (SmartBookingAPI).
+2026-08-11 19:49:36.414 +07:00 [WRN] No store type was specified for the decimal property 'DiscountValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-08-11 19:49:36.417 +07:00 [WRN] No store type was specified for the decimal property 'MaxDiscountAmount' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-08-11 19:49:36.420 +07:00 [WRN] No store type was specified for the decimal property 'MinOrderValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-08-11 19:49:39.540 +07:00 [INF] Executed DbCommand (363ms) [Parameters=[@__barberId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Barber] AS [b]
+        WHERE [b].[BarberID] = @__barberId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-08-11 19:49:39.652 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@__barberId_0='?' (DbType = Int32), @__date_1='?' (DbType = Date)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[StartTime], [a].[EndTime]
+FROM [Appointment] AS [a]
+WHERE [a].[BarberID] = @__barberId_0 AND [a].[AppointmentDate] = @__date_1 AND ([a].[Status] <> N'Cancelled' OR [a].[Status] IS NULL) AND ([a].[Status] <> N'Failed' OR [a].[Status] IS NULL)
+2026-08-11 19:49:39.668 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateOnly, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-11 19:49:39.746 +07:00 [INF] Executed action SmartBookingAPI.Controllers.BarberController.GetAvailableSlots (SmartBookingAPI) in 5996.969ms
+2026-08-11 19:49:39.751 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.BarberController.GetAvailableSlots (SmartBookingAPI)'
+2026-08-11 19:49:39.767 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Barber/1/available-slots?date=2026-08-11 - 200 null application/json; charset=utf-8 8707.2538ms

@@ -1,0 +1,713 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\barberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\barberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\controllers\\barbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\controllers\\barbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\project_context.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\project_context.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\ibarberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\ibarberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\dtos\\servicedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\dtos\\servicedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\dtos\\barberdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\dtos\\barberdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\smartbookingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\smartbookingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\dtos\\createappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\dtos\\createappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\ipaymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\ipaymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\strategies\\fixedamountdiscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\strategies\\fixedamountdiscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\strategies\\percentagediscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\strategies\\percentagediscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\strategies\\ipromotionstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\strategies\\ipromotionstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\dtos\\payoswebhookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\dtos\\payoswebhookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\models\\barber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\models\\barber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\services\\ipromotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\services\\ipromotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|d:\\projects\\smartbookingsystem\\smartbookingapi\\smartbookingapi\\models\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F50AB03-4F38-49A5-B98E-74E712623B50}|SmartBookingAPI\\SmartBookingAPI.csproj|solutionrelative:smartbookingapi\\models\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:611123559:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Controllers\\ServiceController.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwB0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T13:02:41.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BarberController.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\BarberController.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Controllers\\BarberController.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\BarberController.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Controllers\\BarberController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwBcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T13:01:21.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BarberService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\BarberService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\BarberService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\BarberService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\BarberService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T14:43:19.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBarberService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IBarberService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\IBarberService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IBarberService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\IBarberService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T14:30:49.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceDtos.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\ServiceDtos.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\DTOs\\ServiceDtos.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\ServiceDtos.cs",
+              "RelativeToolTip": "SmartBookingAPI\\DTOs\\ServiceDtos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T14:29:37.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BarberDtos.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\BarberDtos.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\DTOs\\BarberDtos.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\BarberDtos.cs",
+              "RelativeToolTip": "SmartBookingAPI\\DTOs\\BarberDtos.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwAcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:42:00.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PROJECT_CONTEXT.md",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\PROJECT_CONTEXT.md",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\PROJECT_CONTEXT.md",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\PROJECT_CONTEXT.md",
+              "RelativeToolTip": "SmartBookingAPI\\PROJECT_CONTEXT.md",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAkwNgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-26T12:37:36.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\README.md",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\README.md",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\README.md",
+              "RelativeToolTip": "SmartBookingAPI\\README.md",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAkwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-08-04T14:16:36.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IServiceService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IServiceService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\IServiceService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IServiceService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\IServiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T14:31:32.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\IAppointmentService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IAppointmentService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\IAppointmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T07:43:24.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Program.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Program.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T06:15:15.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\ServiceService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\ServiceService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\ServiceService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\ServiceService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T14:45:31.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPaymentGateway.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IPaymentGateway.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\IPaymentGateway.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IPaymentGateway.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\IPaymentGateway.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T15:59:33.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SmartBookingAPI.csproj",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\SmartBookingAPI.csproj",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\SmartBookingAPI.csproj",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\SmartBookingAPI.csproj",
+              "RelativeToolTip": "SmartBookingAPI\\SmartBookingAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-14T14:37:48.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Controllers\\AppointmentController.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Controllers\\AppointmentController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwBcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T13:30:42.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateAppointmentDto.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\CreateAppointmentDto.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\DTOs\\CreateAppointmentDto.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\CreateAppointmentDto.cs",
+              "RelativeToolTip": "SmartBookingAPI\\DTOs\\CreateAppointmentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T13:03:44.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\AppointmentService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\AppointmentService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:08:33.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PromotionService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\PromotionService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\PromotionService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\PromotionService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\PromotionService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAiwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T12:38:33.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPromotionStrategy.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\Strategies\\IPromotionStrategy.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\Strategies\\IPromotionStrategy.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\Strategies\\IPromotionStrategy.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\Strategies\\IPromotionStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T13:06:19.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PercentageDiscountStrategy.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\Strategies\\PercentageDiscountStrategy.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\Strategies\\PercentageDiscountStrategy.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\Strategies\\PercentageDiscountStrategy.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\Strategies\\PercentageDiscountStrategy.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T13:09:40.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FixedAmountDiscountStrategy.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\Strategies\\FixedAmountDiscountStrategy.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\Strategies\\FixedAmountDiscountStrategy.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\Strategies\\FixedAmountDiscountStrategy.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\Strategies\\FixedAmountDiscountStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T13:11:32.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PromotionController.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\PromotionController.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Controllers\\PromotionController.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\PromotionController.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Controllers\\PromotionController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T12:48:39.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T05:47:20.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAGYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T03:25:51.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Controllers\\CheckoutController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T02:29:59.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Promotion.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Models\\Promotion.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Promotion.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Models\\Promotion.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T12:26:40.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Models\\ErrorResponse.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\ErrorResponse.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Models\\ErrorResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T01:40:14.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwBsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T01:41:27.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PayOSWebhookDto.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\PayOSWebhookDto.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\DTOs\\PayOSWebhookDto.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\PayOSWebhookDto.cs",
+              "RelativeToolTip": "SmartBookingAPI\\DTOs\\PayOSWebhookDto.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAcwAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T12:54:53.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\appsettings.json",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\appsettings.json",
+              "RelativeToolTip": "SmartBookingAPI\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T06:15:32.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Models\\Service.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Service.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Models\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T13:38:03.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Barber.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Barber.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Models\\Barber.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Barber.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Models\\Barber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T06:16:13.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\PaymentService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\PaymentService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\PaymentService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwCkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T02:16:47.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IPromotionService.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IPromotionService.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Services\\IPromotionService.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Services\\IPromotionService.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Services\\IPromotionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T12:37:53.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\DTOs\\RegisterDto.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "SmartBookingAPI\\DTOs\\RegisterDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T13:43:28.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\appsettings.Development.json",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\appsettings.Development.json",
+              "RelativeToolTip": "SmartBookingAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-14T15:30:47.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Models\\Customer.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Models\\Customer.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T13:35:25.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\DTOs\\LoginRequest.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "SmartBookingAPI\\DTOs\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T07:15:10.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Models\\Appointment.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\Appointment.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T02:44:21.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppException.cs",
+              "DocumentMoniker": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\AppException.cs",
+              "RelativeDocumentMoniker": "SmartBookingAPI\\Models\\AppException.cs",
+              "ToolTip": "D:\\Projects\\SmartBookingSystem\\SmartBookingAPI\\SmartBookingAPI\\Models\\AppException.cs",
+              "RelativeToolTip": "SmartBookingAPI\\Models\\AppException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:08:13.225Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

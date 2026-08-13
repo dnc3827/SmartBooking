@@ -1,0 +1,303 @@
+2026-07-16 20:49:56.802 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-07-16 20:49:59.884 +07:00 [FTL] Máy chủ khởi động thất bại hoặc bị sập đột ngột!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.) (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI\Program.cs:line 118
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2026-07-16 20:50:22.477 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-07-16 20:50:24.589 +07:00 [FTL] Máy chủ khởi động thất bại hoặc bị sập đột ngột!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.) (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI\Program.cs:line 118
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2026-07-16 20:51:27.248 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-07-16 20:51:28.292 +07:00 [FTL] Máy chủ khởi động thất bại hoặc bị sập đột ngột!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.) (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI\Program.cs:line 118
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2026-07-16 21:15:02.311 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-07-16 21:15:03.053 +07:00 [FTL] Máy chủ khởi động thất bại hoặc bị sập đột ngột!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.) (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI\Program.cs:line 118
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2026-07-16 21:17:09.751 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-07-16 21:17:10.596 +07:00 [FTL] Máy chủ khởi động thất bại hoặc bị sập đột ngột!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.) (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI\Program.cs:line 118
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2026-07-16 21:29:41.888 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-07-16 21:29:44.401 +07:00 [FTL] Máy chủ khởi động thất bại hoặc bị sập đột ngột!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.) (Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.AppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI\Program.cs:line 118
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: SmartBookingAPI.Services.IAppointmentService Lifetime: Scoped ImplementationType: SmartBookingAPI.Services.AppointmentService': Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'SmartBookingAPI.Services.IPaymentGateway' while attempting to activate 'SmartBookingAPI.Services.AppointmentService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2026-07-16 21:34:35.689 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-07-16 21:34:40.658 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-16 21:34:42.421 +07:00 [INF] Now listening on: https://localhost:7278
+2026-07-16 21:34:42.426 +07:00 [INF] Now listening on: http://localhost:5050
+2026-07-16 21:34:42.436 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-16 21:34:42.442 +07:00 [INF] Hosting environment: Development
+2026-07-16 21:34:42.457 +07:00 [INF] Content root path: D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI
+2026-07-16 21:34:57.515 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2026-07-16 21:35:02.031 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 4767.2289ms
+2026-07-16 21:35:11.423 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2026-07-16 21:35:11.423 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-16 21:35:11.568 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 145.7268ms
+2026-07-16 21:35:12.537 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1107.3556ms
+2026-07-16 21:35:13.605 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2026-07-16 21:35:14.059 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/favicon-32x32.png - null null
+2026-07-16 21:35:14.225 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-07-16 21:35:14.236 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/favicon-32x32.png - 200 628 image/png 177.064ms
+2026-07-16 21:35:14.328 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 722.9071ms
+2026-07-16 21:42:06.572 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/register - application/json 139
+2026-07-16 21:42:09.951 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AuthController.Register (SmartBookingAPI)'
+2026-07-16 21:42:10.136 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(SmartBookingAPI.DTOs.RegisterDto) on controller SmartBookingAPI.Controllers.AuthController (SmartBookingAPI).
+2026-07-16 21:42:13.985 +07:00 [WRN] No store type was specified for the decimal property 'DiscountValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-16 21:42:13.989 +07:00 [WRN] No store type was specified for the decimal property 'MaxDiscountAmount' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-16 21:42:13.992 +07:00 [WRN] No store type was specified for the decimal property 'MinOrderValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-16 21:42:19.352 +07:00 [INF] Executed DbCommand (426ms) [Parameters=[@__request_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customer] AS [c]
+        WHERE [c].[Username] = @__request_Username_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-07-16 21:42:20.469 +07:00 [INF] Executed DbCommand (119ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 100) (DbType = AnsiString), @p2='?' (Size = 4000), @p3='?' (Size = 15) (DbType = AnsiString), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Customer] ([CustomerName], [Email], [PasswordHash], [Phone], [Role], [Username])
+OUTPUT INSERTED.[CustomerID]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2026-07-16 21:42:20.589 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-16 21:42:20.658 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AuthController.Register (SmartBookingAPI) in 10504.6793ms
+2026-07-16 21:42:20.663 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AuthController.Register (SmartBookingAPI)'
+2026-07-16 21:42:20.693 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/register - 200 null application/json; charset=utf-8 14123.7873ms
+2026-07-16 21:42:47.037 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/login - application/json 57
+2026-07-16 21:42:47.070 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI)'
+2026-07-16 21:42:47.089 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SmartBookingAPI.DTOs.LoginRequest) on controller SmartBookingAPI.Controllers.AuthController (SmartBookingAPI).
+2026-07-16 21:42:47.292 +07:00 [INF] Executed DbCommand (20ms) [Parameters=[@__request_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[CustomerName], [c].[Email], [c].[PasswordHash], [c].[Phone], [c].[Role], [c].[Username]
+FROM [Customer] AS [c]
+WHERE [c].[Username] = @__request_Username_0
+2026-07-16 21:42:47.754 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-16 21:42:47.762 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI) in 667.9894ms
+2026-07-16 21:42:47.768 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI)'
+2026-07-16 21:42:47.774 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/login - 200 null application/json; charset=utf-8 744.9277ms
+2026-07-16 21:44:14.638 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Appointment - application/json 110
+2026-07-16 21:44:14.818 +07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. See https://aka.ms/identitymodel/app-context-switches
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-07-16 21:44:14.939 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. See https://aka.ms/identitymodel/app-context-switches
+2026-07-16 21:44:14.965 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-16 21:44:14.990 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-16 21:44:14.994 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Appointment - 401 0 null 356.132ms
+2026-07-16 21:51:20.648 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-07-16 21:51:21.709 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-16 21:51:21.931 +07:00 [INF] Now listening on: https://localhost:7278
+2026-07-16 21:51:21.933 +07:00 [INF] Now listening on: http://localhost:5050
+2026-07-16 21:51:21.936 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-16 21:51:21.937 +07:00 [INF] Hosting environment: Development
+2026-07-16 21:51:21.937 +07:00 [INF] Content root path: D:\Projects\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI
+2026-07-16 21:51:24.598 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2026-07-16 21:51:25.145 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 557.5155ms
+2026-07-16 21:51:25.155 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-16 21:51:25.165 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 10.2235ms
+2026-07-16 21:51:25.170 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2026-07-16 21:51:25.248 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.0206ms
+2026-07-16 21:51:25.337 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2026-07-16 21:51:25.572 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.3074ms
+2026-07-16 21:51:38.618 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/login - application/json 57
+2026-07-16 21:51:38.775 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI)'
+2026-07-16 21:51:38.833 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SmartBookingAPI.DTOs.LoginRequest) on controller SmartBookingAPI.Controllers.AuthController (SmartBookingAPI).
+2026-07-16 21:51:40.621 +07:00 [WRN] No store type was specified for the decimal property 'DiscountValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-16 21:51:40.627 +07:00 [WRN] No store type was specified for the decimal property 'MaxDiscountAmount' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-16 21:51:40.630 +07:00 [WRN] No store type was specified for the decimal property 'MinOrderValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-16 21:51:42.498 +07:00 [INF] Executed DbCommand (130ms) [Parameters=[@__request_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CustomerID], [c].[CustomerName], [c].[Email], [c].[PasswordHash], [c].[Phone], [c].[Role], [c].[Username]
+FROM [Customer] AS [c]
+WHERE [c].[Username] = @__request_Username_0
+2026-07-16 21:51:43.361 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-16 21:51:43.400 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI) in 4558.5249ms
+2026-07-16 21:51:43.404 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI)'
+2026-07-16 21:51:43.423 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/login - 200 null application/json; charset=utf-8 4806.1956ms
+2026-07-16 21:51:53.551 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-16 21:51:53.558 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 7.6953ms
+2026-07-16 21:52:24.890 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Appointment - application/json 112
+2026-07-16 21:52:24.964 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CreateAppointment (SmartBookingAPI)'
+2026-07-16 21:52:24.970 +07:00 [INF] Route matched with {action = "CreateAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAppointment(SmartBookingAPI.DTOs.CreateAppointmentDto) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-07-16 21:52:25.243 +07:00 [INF] Executed DbCommand (132ms) [Parameters=[@__request_ServiceId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[ServiceID], [s].[Description], [s].[DurationMinutes], [s].[Price], [s].[ServiceName]
+FROM [Service] AS [s]
+WHERE [s].[ServiceID] IN (
+    SELECT [r].[value]
+    FROM OPENJSON(@__request_ServiceId_0) WITH ([value] int '$') AS [r]
+)
+2026-07-16 21:52:25.492 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CreateAppointment (SmartBookingAPI) in 519.6458ms
+2026-07-16 21:52:25.497 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CreateAppointment (SmartBookingAPI)'
+2026-07-16 21:52:25.758 +07:00 [ERR] [CÓ BIẾN]: Vui lòng chọn ít nhất một dịch vụ.
+2026-07-16 21:52:25.998 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Appointment - 500 null application/json 1108.5927ms
+2026-07-16 21:52:34.945 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Appointment - application/json 112
+2026-07-16 21:52:34.954 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CreateAppointment (SmartBookingAPI)'
+2026-07-16 21:52:34.956 +07:00 [INF] Route matched with {action = "CreateAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAppointment(SmartBookingAPI.DTOs.CreateAppointmentDto) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-07-16 21:52:35.024 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__request_ServiceId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[ServiceID], [s].[Description], [s].[DurationMinutes], [s].[Price], [s].[ServiceName]
+FROM [Service] AS [s]
+WHERE [s].[ServiceID] IN (
+    SELECT [r].[value]
+    FROM OPENJSON(@__request_ServiceId_0) WITH ([value] int '$') AS [r]
+)
+2026-07-16 21:52:35.105 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CreateAppointment (SmartBookingAPI) in 143.4585ms
+2026-07-16 21:52:35.108 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CreateAppointment (SmartBookingAPI)'
+2026-07-16 21:52:35.187 +07:00 [ERR] [CÓ BIẾN]: Vui lòng chọn ít nhất một dịch vụ.
+2026-07-16 21:52:35.192 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Appointment - 500 null application/json 247.4064ms

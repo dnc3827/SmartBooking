@@ -1,0 +1,123 @@
+2026-06-29 10:05:39.646 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-06-29 10:05:43.310 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-29 10:05:45.074 +07:00 [INF] Now listening on: https://localhost:7278
+2026-06-29 10:05:45.080 +07:00 [INF] Now listening on: http://localhost:5050
+2026-06-29 10:05:45.092 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-29 10:05:45.097 +07:00 [INF] Hosting environment: Development
+2026-06-29 10:05:45.101 +07:00 [INF] Content root path: C:\Users\PC\OneDrive\文件\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI
+2026-06-29 10:05:51.062 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2026-06-29 10:05:53.047 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 2056.8775ms
+2026-06-29 10:05:59.199 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-29 10:05:59.256 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 58.7579ms
+2026-06-29 10:05:59.273 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2026-06-29 10:05:59.498 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 225.1884ms
+2026-06-29 10:05:59.721 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2026-06-29 10:06:00.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 433.8678ms
+2026-06-29 10:08:41.091 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Promotion/check-discount?code=VIP10 - null null
+2026-06-29 10:08:41.275 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI)'
+2026-06-29 10:08:41.423 +07:00 [INF] Route matched with {action = "CheckDiscount", controller = "Promotion"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CheckDiscount(System.String, System.Decimal) on controller SmartBookingAPI.Controllers.PromotionController (SmartBookingAPI).
+2026-06-29 10:08:44.070 +07:00 [WRN] No store type was specified for the decimal property 'DiscountValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-06-29 10:08:44.076 +07:00 [WRN] No store type was specified for the decimal property 'MaxDiscountAmount' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-06-29 10:08:44.079 +07:00 [WRN] No store type was specified for the decimal property 'MinOrderValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-06-29 10:08:46.801 +07:00 [INF] Executed DbCommand (236ms) [Parameters=[@__code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Code], [p].[DiscountType], [p].[DiscountValue], [p].[EndDate], [p].[IsActive], [p].[MaxDiscountAmount], [p].[MaxUsage], [p].[MinOrderValue], [p].[StartDate], [p].[UsedCount]
+FROM [Promotions] AS [p]
+WHERE [p].[Code] = @__code_0 AND [p].[IsActive] = CAST(1 AS bit)
+2026-06-29 10:08:47.430 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-29 10:08:47.492 +07:00 [INF] Executed action SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI) in 6055.4927ms
+2026-06-29 10:08:47.498 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI)'
+2026-06-29 10:08:47.521 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Promotion/check-discount?code=VIP10 - 400 null application/json; charset=utf-8 6432.5844ms
+2026-06-29 10:09:09.674 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Promotion/check-discount?code=VIP10&originalPrice=200000 - null null
+2026-06-29 10:09:09.699 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI)'
+2026-06-29 10:09:09.702 +07:00 [INF] Route matched with {action = "CheckDiscount", controller = "Promotion"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CheckDiscount(System.String, System.Decimal) on controller SmartBookingAPI.Controllers.PromotionController (SmartBookingAPI).
+2026-06-29 10:09:09.770 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@__code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Code], [p].[DiscountType], [p].[DiscountValue], [p].[EndDate], [p].[IsActive], [p].[MaxDiscountAmount], [p].[MaxUsage], [p].[MinOrderValue], [p].[StartDate], [p].[UsedCount]
+FROM [Promotions] AS [p]
+WHERE [p].[Code] = @__code_0 AND [p].[IsActive] = CAST(1 AS bit)
+2026-06-29 10:09:09.870 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-29 10:09:09.874 +07:00 [INF] Executed action SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI) in 168.9922ms
+2026-06-29 10:09:09.878 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI)'
+2026-06-29 10:09:09.881 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Promotion/check-discount?code=VIP10&originalPrice=200000 - 400 null application/json; charset=utf-8 212.7828ms
+2026-06-29 10:09:15.601 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Promotion/check-discount?code=VIP10&originalPrice=400000 - null null
+2026-06-29 10:09:15.608 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI)'
+2026-06-29 10:09:15.610 +07:00 [INF] Route matched with {action = "CheckDiscount", controller = "Promotion"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CheckDiscount(System.String, System.Decimal) on controller SmartBookingAPI.Controllers.PromotionController (SmartBookingAPI).
+2026-06-29 10:09:15.764 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@__code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Code], [p].[DiscountType], [p].[DiscountValue], [p].[EndDate], [p].[IsActive], [p].[MaxDiscountAmount], [p].[MaxUsage], [p].[MinOrderValue], [p].[StartDate], [p].[UsedCount]
+FROM [Promotions] AS [p]
+WHERE [p].[Code] = @__code_0 AND [p].[IsActive] = CAST(1 AS bit)
+2026-06-29 10:09:15.773 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-29 10:09:15.787 +07:00 [INF] Executed action SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI) in 173.823ms
+2026-06-29 10:09:15.790 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI)'
+2026-06-29 10:09:15.793 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Promotion/check-discount?code=VIP10&originalPrice=400000 - 200 null application/json; charset=utf-8 191.4676ms
+2026-06-29 10:12:30.326 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/api/Promotion/check-discount?code=VIP1&originalPrice=400000 - null null
+2026-06-29 10:12:30.338 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI)'
+2026-06-29 10:12:30.340 +07:00 [INF] Route matched with {action = "CheckDiscount", controller = "Promotion"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CheckDiscount(System.String, System.Decimal) on controller SmartBookingAPI.Controllers.PromotionController (SmartBookingAPI).
+2026-06-29 10:12:30.360 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@__code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Code], [p].[DiscountType], [p].[DiscountValue], [p].[EndDate], [p].[IsActive], [p].[MaxDiscountAmount], [p].[MaxUsage], [p].[MinOrderValue], [p].[StartDate], [p].[UsedCount]
+FROM [Promotions] AS [p]
+WHERE [p].[Code] = @__code_0 AND [p].[IsActive] = CAST(1 AS bit)
+2026-06-29 10:12:30.451 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-29 10:12:30.454 +07:00 [INF] Executed action SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI) in 110.3264ms
+2026-06-29 10:12:30.456 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.PromotionController.CheckDiscount (SmartBookingAPI)'
+2026-06-29 10:12:30.464 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/api/Promotion/check-discount?code=VIP1&originalPrice=400000 - 400 null application/json; charset=utf-8 143.359ms
+2026-06-29 10:27:11.807 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-06-29 10:27:14.063 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-29 10:27:14.774 +07:00 [INF] Now listening on: https://localhost:7278
+2026-06-29 10:27:14.779 +07:00 [INF] Now listening on: http://localhost:5050
+2026-06-29 10:27:14.788 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-29 10:27:14.790 +07:00 [INF] Hosting environment: Development
+2026-06-29 10:27:14.792 +07:00 [INF] Content root path: C:\Users\PC\OneDrive\文件\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI
+2026-06-29 10:27:17.265 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2026-06-29 10:27:18.024 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 777.9462ms
+2026-06-29 10:27:18.072 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-29 10:27:18.075 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2026-06-29 10:27:18.096 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 26.9768ms
+2026-06-29 10:27:18.194 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 119.6738ms
+2026-06-29 10:27:18.436 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2026-06-29 10:27:18.715 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 279.7704ms
+2026-06-29 10:29:22.539 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Promotion/apply-discount?code=VIP10 - null 0
+2026-06-29 10:29:22.735 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI)'
+2026-06-29 10:29:22.899 +07:00 [INF] Route matched with {action = "ApplyDiscount", controller = "Promotion"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApplyDiscount(System.String, System.Decimal) on controller SmartBookingAPI.Controllers.PromotionController (SmartBookingAPI).
+2026-06-29 10:29:25.211 +07:00 [WRN] No store type was specified for the decimal property 'DiscountValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-06-29 10:29:25.215 +07:00 [WRN] No store type was specified for the decimal property 'MaxDiscountAmount' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-06-29 10:29:25.218 +07:00 [WRN] No store type was specified for the decimal property 'MinOrderValue' on entity type 'Promotion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-06-29 10:29:27.559 +07:00 [INF] Executed DbCommand (169ms) [Parameters=[@__code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Code], [p].[DiscountType], [p].[DiscountValue], [p].[EndDate], [p].[IsActive], [p].[MaxDiscountAmount], [p].[MaxUsage], [p].[MinOrderValue], [p].[StartDate], [p].[UsedCount]
+FROM [Promotions] AS [p]
+WHERE [p].[Code] = @__code_0 AND [p].[IsActive] = CAST(1 AS bit)
+2026-06-29 10:29:28.089 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType4`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-29 10:29:28.135 +07:00 [INF] Executed action SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI) in 5221.8646ms
+2026-06-29 10:29:28.139 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI)'
+2026-06-29 10:29:28.159 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Promotion/apply-discount?code=VIP10 - 400 null application/json; charset=utf-8 5620.9209ms
+2026-06-29 10:32:08.757 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Promotion/apply-discount?code=VIP10&originalPrice=500000 - null 0
+2026-06-29 10:32:08.783 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI)'
+2026-06-29 10:32:08.786 +07:00 [INF] Route matched with {action = "ApplyDiscount", controller = "Promotion"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApplyDiscount(System.String, System.Decimal) on controller SmartBookingAPI.Controllers.PromotionController (SmartBookingAPI).
+2026-06-29 10:32:08.840 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Code], [p].[DiscountType], [p].[DiscountValue], [p].[EndDate], [p].[IsActive], [p].[MaxDiscountAmount], [p].[MaxUsage], [p].[MinOrderValue], [p].[StartDate], [p].[UsedCount]
+FROM [Promotions] AS [p]
+WHERE [p].[Code] = @__code_0 AND [p].[IsActive] = CAST(1 AS bit)
+2026-06-29 10:32:08.869 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Code], [p].[DiscountType], [p].[DiscountValue], [p].[EndDate], [p].[IsActive], [p].[MaxDiscountAmount], [p].[MaxUsage], [p].[MinOrderValue], [p].[StartDate], [p].[UsedCount]
+FROM [Promotions] AS [p]
+WHERE [p].[Code] = @__code_0
+2026-06-29 10:32:09.214 +07:00 [INF] Executed DbCommand (111ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Promotions] SET [UsedCount] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2026-06-29 10:32:09.259 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-29 10:32:09.265 +07:00 [INF] Executed action SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI) in 475.9174ms
+2026-06-29 10:32:09.270 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI)'
+2026-06-29 10:32:09.273 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Promotion/apply-discount?code=VIP10&originalPrice=500000 - 200 null application/json; charset=utf-8 520.4199ms
+2026-06-29 10:32:32.124 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Promotion/apply-discount?code=VIP10&originalPrice=100000 - null 0
+2026-06-29 10:32:32.146 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI)'
+2026-06-29 10:32:32.148 +07:00 [INF] Route matched with {action = "ApplyDiscount", controller = "Promotion"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ApplyDiscount(System.String, System.Decimal) on controller SmartBookingAPI.Controllers.PromotionController (SmartBookingAPI).
+2026-06-29 10:32:32.315 +07:00 [INF] Executed DbCommand (33ms) [Parameters=[@__code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Code], [p].[DiscountType], [p].[DiscountValue], [p].[EndDate], [p].[IsActive], [p].[MaxDiscountAmount], [p].[MaxUsage], [p].[MinOrderValue], [p].[StartDate], [p].[UsedCount]
+FROM [Promotions] AS [p]
+WHERE [p].[Code] = @__code_0 AND [p].[IsActive] = CAST(1 AS bit)
+2026-06-29 10:32:32.458 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType4`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-29 10:32:32.461 +07:00 [INF] Executed action SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI) in 310.2654ms
+2026-06-29 10:32:32.463 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.PromotionController.ApplyDiscount (SmartBookingAPI)'
+2026-06-29 10:32:32.465 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Promotion/apply-discount?code=VIP10&originalPrice=100000 - 400 null application/json; charset=utf-8 341.0641ms

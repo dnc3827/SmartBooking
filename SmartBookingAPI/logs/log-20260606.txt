@@ -1,0 +1,228 @@
+2026-06-06 13:02:06.018 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-06-06 13:02:08.335 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-06 13:02:09.252 +07:00 [INF] Now listening on: https://localhost:7278
+2026-06-06 13:02:09.255 +07:00 [INF] Now listening on: http://localhost:5050
+2026-06-06 13:02:09.265 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-06 13:02:09.268 +07:00 [INF] Hosting environment: Development
+2026-06-06 13:02:09.271 +07:00 [INF] Content root path: C:\Users\PC\OneDrive\文件\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI
+2026-06-06 13:02:13.609 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2026-06-06 13:02:15.432 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 1842.9532ms
+2026-06-06 13:02:20.324 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-06 13:02:20.332 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2026-06-06 13:02:20.362 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 38.4773ms
+2026-06-06 13:02:20.511 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 179.2575ms
+2026-06-06 13:02:20.775 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2026-06-06 13:02:21.058 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 283.056ms
+2026-06-06 13:03:12.668 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7278/api/Auth/login?username=admin&password=123456 - null 0
+2026-06-06 13:03:12.773 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI)'
+2026-06-06 13:03:12.805 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller SmartBookingAPI.Controllers.AuthController (SmartBookingAPI).
+2026-06-06 13:03:12.920 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:03:12.935 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI) in 125.9564ms
+2026-06-06 13:03:12.936 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AuthController.Login (SmartBookingAPI)'
+2026-06-06 13:03:12.937 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7278/api/Auth/login?username=admin&password=123456 - 200 null application/json; charset=utf-8 269.4137ms
+2026-06-06 13:06:00.613 +07:00 [INF] Hệ thống SmartBooking đang khởi động...
+2026-06-06 13:06:01.716 +07:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-06 13:06:02.045 +07:00 [INF] Now listening on: https://localhost:7278
+2026-06-06 13:06:02.047 +07:00 [INF] Now listening on: http://localhost:5050
+2026-06-06 13:06:02.051 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-06 13:06:02.052 +07:00 [INF] Hosting environment: Development
+2026-06-06 13:06:02.053 +07:00 [INF] Content root path: C:\Users\PC\OneDrive\文件\SmartBookingSystem\SmartBookingAPI\SmartBookingAPI
+2026-06-06 13:06:03.772 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/index.html - null null
+2026-06-06 13:06:03.772 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-06 13:06:03.879 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 119.5448ms
+2026-06-06 13:06:04.355 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/index.html - 200 null text/html;charset=utf-8 599.6981ms
+2026-06-06 13:06:04.370 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-06 13:06:04.370 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/_vs/browserLink - null null
+2026-06-06 13:06:04.374 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 4.7574ms
+2026-06-06 13:06:04.454 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.415ms
+2026-06-06 13:06:04.787 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - null null
+2026-06-06 13:06:05.015 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 228.5907ms
+2026-06-06 13:06:35.099 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/9999?customerId=1 - null null
+2026-06-06 13:06:35.195 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:06:35.297 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:06:38.250 +07:00 [INF] Executed DbCommand (97ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:06:38.307 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:06:38.351 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 3044.5289ms
+2026-06-06 13:06:38.355 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:06:38.371 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/9999?customerId=1 - 400 null application/json; charset=utf-8 3272.8671ms
+2026-06-06 13:06:57.184 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/2?customerId=1 - null null
+2026-06-06 13:06:57.192 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:06:57.195 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:06:57.225 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:06:57.415 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Appointment] SET [Status] = @p0
+OUTPUT 1
+WHERE [AppointmentID] = @p1;
+2026-06-06 13:06:57.435 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:06:57.438 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 240.7782ms
+2026-06-06 13:06:57.439 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:06:57.441 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/2?customerId=1 - 200 null application/json; charset=utf-8 257.234ms
+2026-06-06 13:07:18.102 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/2?customerId=1 - null null
+2026-06-06 13:07:18.118 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:07:18.119 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:07:18.175 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:07:18.180 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:07:18.181 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 59.7773ms
+2026-06-06 13:07:18.182 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:07:18.184 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/2?customerId=1 - 400 null application/json; charset=utf-8 82.6592ms
+2026-06-06 13:07:21.076 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/2?customerId=1 - null null
+2026-06-06 13:07:21.079 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:07:21.080 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:07:21.085 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:07:21.089 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:07:21.091 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 9.7697ms
+2026-06-06 13:07:21.093 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:07:21.094 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/2?customerId=1 - 400 null application/json; charset=utf-8 18.9302ms
+2026-06-06 13:07:27.414 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/1?customerId=1 - null null
+2026-06-06 13:07:27.417 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:07:27.420 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:07:27.429 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:07:27.437 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Appointment] SET [Status] = @p0
+OUTPUT 1
+WHERE [AppointmentID] = @p1;
+2026-06-06 13:07:27.439 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:07:27.441 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 18.9597ms
+2026-06-06 13:07:27.442 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:07:27.444 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/1?customerId=1 - 200 null application/json; charset=utf-8 29.8733ms
+2026-06-06 13:08:00.172 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/1?customerId=1 - null null
+2026-06-06 13:08:00.180 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:00.181 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:00.192 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:00.194 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:00.195 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 10.826ms
+2026-06-06 13:08:00.196 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:00.197 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/1?customerId=1 - 400 null application/json; charset=utf-8 26.0372ms
+2026-06-06 13:08:01.777 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/1?customerId=1 - null null
+2026-06-06 13:08:01.780 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:01.781 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:01.789 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:01.792 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:01.794 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 11.6328ms
+2026-06-06 13:08:01.795 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:01.796 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/1?customerId=1 - 400 null application/json; charset=utf-8 19.8518ms
+2026-06-06 13:08:04.868 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=1 - null null
+2026-06-06 13:08:04.871 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:04.872 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:04.879 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:04.886 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Appointment] SET [Status] = @p0
+OUTPUT 1
+WHERE [AppointmentID] = @p1;
+2026-06-06 13:08:04.887 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:04.888 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 13.913ms
+2026-06-06 13:08:04.890 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:04.891 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=1 - 200 null application/json; charset=utf-8 23.2923ms
+2026-06-06 13:08:11.890 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=2 - null null
+2026-06-06 13:08:11.893 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:11.894 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:11.902 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:11.906 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:11.907 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 11.1714ms
+2026-06-06 13:08:11.908 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:11.909 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=2 - 400 null application/json; charset=utf-8 19.1209ms
+2026-06-06 13:08:14.788 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=2 - null null
+2026-06-06 13:08:14.792 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:14.793 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:14.802 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:14.811 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:14.812 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 17.5427ms
+2026-06-06 13:08:14.814 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:14.815 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=2 - 400 null application/json; charset=utf-8 27.0466ms
+2026-06-06 13:08:29.173 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=3 - null null
+2026-06-06 13:08:29.176 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:29.178 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:29.186 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:29.190 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:29.192 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 12.0304ms
+2026-06-06 13:08:29.193 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:29.194 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=3 - 400 null application/json; charset=utf-8 21.509ms
+2026-06-06 13:08:30.045 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=3 - null null
+2026-06-06 13:08:30.048 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:30.050 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:30.058 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:30.061 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:30.063 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 10.9952ms
+2026-06-06 13:08:30.064 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:30.066 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=3 - 400 null application/json; charset=utf-8 20.9469ms
+2026-06-06 13:08:32.634 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=1 - null null
+2026-06-06 13:08:32.637 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:32.638 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:32.649 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:32.651 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:32.652 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 11.9936ms
+2026-06-06 13:08:32.653 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:32.654 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=1 - 400 null application/json; charset=utf-8 20.7595ms
+2026-06-06 13:08:33.835 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=1 - null null
+2026-06-06 13:08:33.839 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:33.840 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:33.846 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:33.851 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:33.853 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 12.1759ms
+2026-06-06 13:08:33.855 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:33.856 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/3?customerId=1 - 400 null application/json; charset=utf-8 21.5493ms
+2026-06-06 13:08:37.539 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/4?customerId=1 - null null
+2026-06-06 13:08:37.542 +07:00 [INF] Executing endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:37.543 +07:00 [INF] Route matched with {action = "CancelAppointment", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelAppointment(Int32, Int32) on controller SmartBookingAPI.Controllers.AppointmentController (SmartBookingAPI).
+2026-06-06 13:08:37.548 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__appointmentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AppointmentID], [a].[AppointmentDate], [a].[BarberID], [a].[CreatedAt], [a].[CustomerID], [a].[EndTime], [a].[StartTime], [a].[Status]
+FROM [Appointment] AS [a]
+WHERE [a].[AppointmentID] = @__appointmentId_0
+2026-06-06 13:08:37.560 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Appointment] SET [Status] = @p0
+OUTPUT 1
+WHERE [AppointmentID] = @p1;
+2026-06-06 13:08:37.562 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-06 13:08:37.563 +07:00 [INF] Executed action SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI) in 18.0866ms
+2026-06-06 13:08:37.564 +07:00 [INF] Executed endpoint 'SmartBookingAPI.Controllers.AppointmentController.CancelAppointment (SmartBookingAPI)'
+2026-06-06 13:08:37.565 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7278/api/Appointment/cancel/4?customerId=1 - 200 null application/json; charset=utf-8 25.9887ms
