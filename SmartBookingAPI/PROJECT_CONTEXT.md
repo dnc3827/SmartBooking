@@ -235,3 +235,6 @@ SmartBookingAPI/
 ├── appsettings.json               # JwtConfig, ConnectionStrings, PayOS Keys
 ├── SmartBookingAPI.xml            # File sinh tự động chứa XML Comments cho Swagger
 └── Program.cs                     # DI, JWT, Serilog, Middleware pipeline, cấu hình Swagger XML
+
+## 8. Luyện tập Git Commit
+
