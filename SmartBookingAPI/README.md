@@ -13,6 +13,22 @@ SmartBooking API là một hệ thống backend RESTful được thiết kế đ
 | **API Documentation** | Swagger UI (Swashbuckle) tích hợp XML Comments[cite: 2] |
 | **Payment Gateway** | PayOS SDK (v2.1.0)[cite: 2] |
 
+## Những vấn đề kỹ thuật đã giải quyết
+
+- **Race condition**: Phát hiện overbooking khi 2 user 
+  đặt cùng khung giờ → implement Allen Interval Overlap 
+  + Database Transaction
+
+- **PayOS SDK**: Tài liệu NuGet v2.1.0 ghi sai namespace
+  (`PayOS.Models`) → tự tra source code tìm ra namespace 
+  đúng (`PayOS.Models.V2.PaymentRequests`)
+
+- **IDOR vulnerability**: Cancel endpoint lấy customerId 
+  từ query string → fix bằng JWT claim
+
+- **Captive Dependency**: Phát hiện và fix Singleton 
+  inject Scoped service trong BackgroundService
+
 ## 🌟 Tính năng nổi bật & Điểm nhấn kỹ thuật (Selling Points)
 
 ### 1. Kiến trúc & Design Patterns
