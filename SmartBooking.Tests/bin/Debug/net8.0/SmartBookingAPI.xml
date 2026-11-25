@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartBookingAPI</name>
+    </assembly>
+    <members>
+        <member name="M:SmartBookingAPI.Controllers.AppointmentController.CreateAppointment(SmartBookingAPI.DTOs.CreateAppointmentDto)">
+            <summary>
+            API đặt lịch cắt tóc
+            </summary>
+        </member>
+        <member name="T:SmartBookingAPI.DTOs.PayOSWebhookDataDto">
+            <summary>
+            Chứa thông tin chi tiết giao dịch chuyển khoản
+            </summary>
+        </member>
+        <member name="T:SmartBookingAPI.Migrations.AddPromotionTable">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.AddPromotionTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.AddPromotionTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.AddPromotionTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SmartBookingAPI.Migrations.AddMinOrderValueToPromotion">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.AddMinOrderValueToPromotion.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.AddMinOrderValueToPromotion.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.AddMinOrderValueToPromotion.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SmartBookingAPI.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SmartBookingAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
